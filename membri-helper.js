@@ -68,7 +68,7 @@ const membersData = [
 		thumbnailImage: "static/profile/mish.webp",
 		passions: "Desenatul, pictatul, cititul, gătitul, cântatul la chitară &#127812;",
 		roles: [2, 4],
-		description: "Bună! Sunt Miruna sau ciuperca sau creața sau whatever și mă ocup cu design-ul în cadrul echipe RoboAs. Ador să desenez/pictez, să citesc și să gătesc, iar din când în când cânt și la chitară (doar din când în când) :)) Îmi plac pisicile și rock-ul și ador verdele și negrul și iubesc să îmi fac amintiri cu prietenii și colegii.",
+		description: "Bună! Sunt Miruna sau ciuperca sau creața sau whatever și mă ocup cu design-ul în cadrul echipei RoboAs. Ador să desenez/pictez, să citesc și să gătesc, iar din când în când cânt și la chitară (doar din când în când) :)) Îmi plac pisicile și rock-ul și ador verdele și negrul și iubesc să îmi fac amintiri cu prietenii și colegii.",
 		insta: "miru.msh"
 	},
 	{
