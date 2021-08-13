@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RoboAs &#128295; 19082</title>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0'>
+		<link rel="shortcut icon" href="static/logo_roboas.png">
+
+		<link rel="stylesheet" type="text/css" href="app.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="particles.min.js"></script>
+
+		<script src="particles-helper.js"></script>
+		<script src="app.js"></script>
+		<script src="membri-helper.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1 class="misc-mono"><a href="#top">RoboAs</a></h1>
+			<ul>
+				<li><a href="#prezentare">Prezentare</a></li>
+				<li><a href="#echipa">Echipă</a></li>
+				<li><a href="#sponsori">Sponsori</a></li>
+				<li><a href="#realizari">Realizări</a></li>
+				<li><a href="#galerie">Galerie</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<button class="-openmenu"><img src="static/icon_menu.svg"></button>
+		</header>
+		<span id="top"></span>
+		<div id="section-1">
+			<div class="-contentwrapper">
+				<div class="-content misc-mono">
+					<!-- Momentan ascult ton ton -->
+					<p>Echipa de robotică a <strong>Colegiului Național Andrei Șaguna</strong>, Brașov</p>
+					<h1>Robot în <strong>aparență</strong>,<br>Prieten în <strong>esență</strong><span class="-typing"></span></h1>
+				</div>
+			</div>
+		</div>
+		<div id="section-2">
+			<!-- Momentan ascult Giulești 🔛 Crângași -->
+			<span id="prezentare"></span>
+			<div class="-content">
+				<div class="-left">
+					<h2 class="misc-mono">Cine suntem noi</h2>
+					<p>Salut! Noi suntem echipa de robotică a Colegiului Național "Andrei Șaguna" din Brașov. Participăm an de an la competiția BRD FIRST Tech Challenge România, cel mai mare concurs de robotică la nivel liceal din țara noastră. Pasiunea noastră pentru tot ce înseamnă robotică ne-a adus câteva premii cu care ne mândrim și ne-a ajutat să legăm prietenii de neuitat cu echipe din toată țara &#128156;&#128155;</p>
+				</div>
+				<div class="-right">
+					<video width="560" height="315" src="https://saguna.ro/roboas/VideoRobotique1.mp4" muted loop autoplay></video>
+				</div>
+			</div>
+		</div>
+		<div id="section-3">
+			<span id="echipa"></span>
+			<h2 class="misc-mono">Membrii echipei</h2>
+			<div class="-sub"></div>
+			<div class="-about" style="opacity: 0; pointer-events: none;">
+				<div>
+					<img src="https://dummyimage.com/300">
+					<div class="-content">
+						<button class="-close">&times;</button>
+						<h2>You Stay ON MY MIND</h2>
+						<table>
+							<tbody>
+								<tr>
+									<td><b>Vârstă:</b> <span class="-age">16 ani</span></td>
+									<td><b>Clasa:</b> <span class="-class">a XI-a B</span></td>
+								</tr>
+								<tr>
+									<td colspan="2"><b>Pasiuni:</b> <span class="-passion">fructul pasiunii</span></td>
+								</tr>
+							</tbody>
+						</table>
+						<ul class="-roluri">
+							<li data-id="0">Programare</li>
+							<li data-id="1">Proiectare</li>
+							<li data-id="2">Design</li>
+							<li data-id="3">Asamblare</li>
+							<li data-id="4">Marketing</li>
+						</ul>
+						<p class="-descriere">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="-controls">
+							<button onclick="section3ToggleUser(); section3ToggleUser(parseInt(section3CurrentlyOpenedUser) - 1);"></button>
+							<button onclick="section3ToggleUser(); section3ToggleUser(parseInt(section3CurrentlyOpenedUser) + 1);"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section-4">
+			<span id="sponsori"></span>
+			<h2 class="misc-mono">Sponsori</h2>
+			<div class="-sponsors">
+				<img src="static/logo_siemens.svg">
+			</div>
+		</div>
+	</body>
+</html>
