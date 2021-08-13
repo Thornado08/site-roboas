@@ -39,7 +39,7 @@ const membersData = [
 		name: "Teodor Neagoe (Teon)",
 		class: 2023,
 		classIndex: "A",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
+		birth: new Date(2004, 5, 8, 0, 0) * 1,
 		descriptionImage: "static/insta/teon.jpg",
 		thumbnailImage: "static/profile/teon.webp",
 		passions: "Aeromodelismul, biciclismul, cățăratul, speed-cubingul &#128690;",
