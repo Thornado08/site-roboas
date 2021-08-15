@@ -1,5 +1,29 @@
 const membersData = [
 	{
+		name: "Daria Marica",
+		class: 2022,
+		classIndex: "A",
+		birth: new Date(2003, 7, 8, 0, 0) * 1,
+		descriptionImage: "static/insta/daria.jpg",
+		thumbnailImage: "static/profile/daria.webp",
+		passions: "Dansatul, filmele și serialele &#127871;",
+		roles: [1, 3, 4],
+		description: "Hello! Sunt Daria Marica și fac parte din minunata familie RoboAs. Am parcurs toate departamentele echipei, începând cu design și marketing, și terminând cu asamblare și programare. Îmi place mult să lucrez în echipă, să văd cum trecem peste obstacole și într-un final ne bucurăm de rezultatul obținut. În timpul liber ador să mă joc cu cățelușa mea Roua.",
+		insta: "dariamarica"
+	},
+	{
+		name: "Miruna Lungu (Mîsh)",
+		class: 2022,
+		classIndex: "A",
+		birth: new Date(2003, 9, 27, 0, 0) * 1,
+		descriptionImage: "static/insta/mish.jpg",
+		thumbnailImage: "static/profile/mish.webp",
+		passions: "Desenatul, pictatul, cititul, gătitul, cântatul la chitară &#127812;",
+		roles: [2, 4],
+		description: "Bună! Sunt Miruna sau ciuperca sau creața sau whatever și mă ocup cu design-ul în cadrul echipei RoboAs. Ador să desenez/pictez, să citesc și să gătesc, iar din când în când cânt și la chitară (doar din când în când) :)) Îmi plac pisicile și rock-ul și ador verdele și negrul și iubesc să îmi fac amintiri cu prietenii și colegii.",
+		insta: "miru.msh"
+	},
+	{
 		name: "Dominic Satnoianu (Domi)",
 		class: 2023,
 		classIndex: "B",
@@ -42,34 +66,10 @@ const membersData = [
 		birth: new Date(2004, 5, 8, 0, 0) * 1,
 		descriptionImage: "static/insta/teon.jpg",
 		thumbnailImage: "static/profile/teon.webp",
-		passions: "Chalistenics, programare, electronica, aeromodelism, biciclismul, cățăratul &#128690;",
+		passions: "Chalistenics, programarea, electronica, aeromodelismul, biciclismul, cățăratul &#128690;",
 		roles: [0, 1, 3],
 		description: "Salut! Sunt Teodor Neagoe (aka Teon) și mă ocup  cu proiectarea 3D în cadrul echipei RoboAs. Îmi place cam tot ce e legat de tehnologie: de la programat, proiectat, editat la construit circuite electrice și aeromodelism. Ca sporturi, ador biciclismul, cățăratul, alergatul, schiatul și înotul. Îmi place speed-cubingul și muzica rock!",
 		insta: "teo.climber"
-	},
-	{
-		name: "Daria Marica",
-		class: 2022,
-		classIndex: "A",
-		birth: new Date(2003, 7, 8, 0, 0) * 1,
-		descriptionImage: "static/insta/daria.jpg",
-		thumbnailImage: "static/profile/daria.webp",
-		passions: "Dansatul, filmele și serialele &#127871;",
-		roles: [1, 3, 4],
-		description: "Hello! Sunt Daria Marica și fac parte din minunata familie RoboAs. Am parcurs toate departamentele echipei, începând cu design și marketing, și terminând cu asamblare și programare. Îmi place mult să lucrez în echipă, să văd cum trecem peste obstacole și într-un final ne bucurăm de rezultatul obținut. În timpul liber ador să mă joc cu cățelușa mea Roua.",
-		insta: "dariamarica"
-	},
-	{
-		name: "Miruna Lungu (Mîsh)",
-		class: 2022,
-		classIndex: "A",
-		birth: new Date(2003, 9, 27, 0, 0) * 1,
-		descriptionImage: "static/insta/mish.jpg",
-		thumbnailImage: "static/profile/mish.webp",
-		passions: "Desenatul, pictatul, cititul, gătitul, cântatul la chitară &#127812;",
-		roles: [2, 4],
-		description: "Bună! Sunt Miruna sau ciuperca sau creața sau whatever și mă ocup cu design-ul în cadrul echipei RoboAs. Ador să desenez/pictez, să citesc și să gătesc, iar din când în când cânt și la chitară (doar din când în când) :)) Îmi plac pisicile și rock-ul și ador verdele și negrul și iubesc să îmi fac amintiri cu prietenii și colegii.",
-		insta: "miru.msh"
 	},
 	{
 		name: "Angel Huminic",
