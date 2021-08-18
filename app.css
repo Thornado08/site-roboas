@@ -212,7 +212,7 @@ header > .-openmenu > img {
 }
 
 #section-3 > .-sub > button:hover {
-	transform: scale(.9);
+	border-radius: 300px;
 }
 
 #section-3 > .-anterior {

@@ -66,7 +66,7 @@ const membersData = [
 		birth: new Date(2004, 5, 8, 0, 0) * 1,
 		descriptionImage: "static/insta/teon.jpg",
 		thumbnailImage: "static/profile/teon.webp",
-		passions: "Chalistenics, programarea, electronica, aeromodelismul, biciclismul, cățăratul &#128690;",
+		passions: "Calisthenics, programarea, electronica, aeromodelismul, biciclismul, cățăratul &#128690;",
 		roles: [0, 1, 3],
 		description: "Salut! Sunt Teodor Neagoe (aka Teon) și mă ocup  cu proiectarea 3D în cadrul echipei RoboAs. Îmi place cam tot ce e legat de tehnologie: de la programat, proiectat, editat la construit circuite electrice și aeromodelism. Ca sporturi, ador biciclismul, cățăratul, alergatul, schiatul și înotul. Îmi place speed-cubingul și muzica rock!",
 		insta: "teo.climber"
