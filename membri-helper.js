@@ -263,6 +263,18 @@ const membersData = [
 		description: "Salut! Eu sunt Vlad și acesta este primul meu an în echipa de robotică. Mi-ar plăcea mult să încerc și să contribui în fiecare etapă de creație a robotului: de la proiectare la programare și asamablare.",
 		insta: "_adra.melech_"
 	},
+	{
+		name: "David Ioan Abrudan",
+		class: 2024,
+		classIndex: "B",
+		birth: new Date(2005, 3, 3, 0, 0) * 1,
+		descriptionImage: "static/profile/davida.webp",
+		thumbnailImage: "static/profile/davida.webp",
+		passions: "Informatica, ingineria mecanică și trading/economie ",
+		roles: [3],
+		description: "Mă numesc Abrudan David Ioan, iar în echipa noastră mă ocup cu partea de asamblare. Unele dintre pasiunile mele sunt informatica, trading/economie dar și ingineria.",
+		insta: "david_abrudan"
+	},
 ].sort((a, b) => {
 	if(a.class != b.class) return b.class - a.class;
 	return a.name.localeCompare(b.name);
