@@ -84,6 +84,18 @@ const membersData = [
 		insta: "dennis__bart"
 	},
 	{
+		name: "Ionuț",
+		class: 2024,
+		classIndex: "B",
+		birth: new Date(2005, 0, 27, 3, 40) * 1,
+		descriptionImage: "static/insta/dennis.jpg",
+		thumbnailImage: "static/profile/dennis.webp",
+		passions: "Jocurile de fantezie, schiatul &#9975;",
+		roles: [1, 3, 4],
+		description: "Salut. Sunt Dennis și mă bucur mult să fiu în echipa RoboAs de un an. Îmi plac filmele, jocurile de fantezie și cărțile de ficțiune. De asemenea, îmi place adrenalina și să schiez. Cam atât despre mine :))",
+		insta: "dennis__bart"
+	},
+	{
 		name: "Ana Răduș",
 		class: 2024,
 		classIndex: "A",
