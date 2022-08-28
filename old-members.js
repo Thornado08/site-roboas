@@ -1,27 +1,27 @@
 const membersData = [
 	{
-		name: "Ioana Popa",
-		class: 2023,
+		name: "Daria Marica",
+		class: 2022,
 		classIndex: "A",
-		birth: new Date(2004, 7, 20, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
+		birth: new Date(2003, 7, 8, 0, 0) * 1,
+		descriptionImage: "static/insta/daria.jpg",
+		thumbnailImage: "static/profile/daria.webp",
+		passions: "Dansatul, filmele și serialele &#127871;",
+		roles: [1, 3, 4],
+		description: "Hello! Sunt Daria Marica și fac parte din minunata familie RoboAs. Am parcurs toate departamentele echipei, începând cu design și marketing, și terminând cu asamblare și programare. Îmi place mult să lucrez în echipă, să văd cum trecem peste obstacole și într-un final ne bucurăm de rezultatul obținut. În timpul liber ador să mă joc cu cățelușa mea Roua.",
+		insta: "dariamarica"
 	},
 	{
-		name: "George Cărpinișan",
-		class: 2023,
-		classIndex: "B",
-		birth: new Date(2004, 3, 17, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
+		name: "Miruna Lungu (Mîsh)",
+		class: 2022,
+		classIndex: "A",
+		birth: new Date(2003, 9, 27, 0, 0) * 1,
+		descriptionImage: "static/insta/mish.jpg",
+		thumbnailImage: "static/profile/mish.webp",
+		passions: "Desenatul, pictatul, cititul, gătitul, cântatul la chitară &#127812;",
+		roles: [2, 4],
+		description: "Bună! Sunt Miruna sau ciuperca sau creața sau whatever și mă ocup cu design-ul în cadrul echipei RoboAs. Ador să desenez/pictez, să citesc și să gătesc, iar din când în când cânt și la chitară (doar din când în când) :)) Îmi plac pisicile și rock-ul și ador verdele și negrul și iubesc să îmi fac amintiri cu prietenii și colegii.",
+		insta: "miru.msh"
 	},
 	{
 		name: "Dominic Satnoianu (Domi)",
@@ -51,7 +51,7 @@ const membersData = [
 		name: "Andrei Borcoman (Borco)",
 		class: 2023,
 		classIndex: "A",
-		birth: new Date(2004, 7, 20, 0, 0) * 1,
+		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "static/insta/borco.jpg",
 		thumbnailImage: "static/profile/borco.webp",
 		passions: "Sportul, Pepsi fără zahăr &#127936;",
@@ -72,6 +72,18 @@ const membersData = [
 		insta: "teo.climber"
 	},
 	{
+		name: "Angel Huminic",
+		class: 2022,
+		classIndex: "A",
+		birth: new Date(2005, 0, 27, 3, 40) * 1,
+		descriptionImage: "static/profile/angel.webp",
+		thumbnailImage: "static/profile/angel.webp",
+		passions: "",
+		roles: [1, 3],
+		description: "Vorba vine",
+		insta: "angel_huminic"
+	},
+	{
 		name: "Dennis Bart",
 		class: 2024,
 		classIndex: "B",
@@ -84,20 +96,8 @@ const membersData = [
 		insta: "dennis__bart"
 	},
 	{
-		name: "Ana Răduș",
-		class: 2024,
-		classIndex: "A",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
-	},
-	{
-		name: "Mircea Bodean",
-		class: 2024,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -108,8 +108,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Darius Chițu",
-		class: 2025,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -120,8 +120,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Alexia Muncaciu",
-		class: 2025,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -132,8 +132,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Anastasia Muncaciu",
-		class: 2025,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -144,8 +144,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Rareș Buteică",
-		class: 2024,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -156,8 +156,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Alexandra Șerban",
-		class: 2024,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -168,8 +168,8 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "Daria Pampu-Românescu",
-		class: 2024,
+		name: "Test test (TES T)",
+		class: 2023,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
@@ -178,55 +178,7 @@ const membersData = [
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
-	},
-	{
-		name: "Vlad Ștefan Deaconu",
-		class: 2024,
-		classIndex: "B",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
-	},
-	{
-		name: "David Iustin Brățucu",
-		class: 2024,
-		classIndex: "B",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
-	},
-	{
-		name: "Maria Vasilescu",
-		class: 2024,
-		classIndex: "B",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
-	},
-	{
-		name: "Vlad Cobenciuc",
-		class: 2024,
-		classIndex: "B",
-		birth: new Date(2005, 0, 27, 3, 40) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
-	},
+	}
 ].sort((a, b) => {
 	if(a.class != b.class) return b.class - a.class;
 	return a.name.localeCompare(b.name);

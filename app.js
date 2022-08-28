@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 	function updateScroll() {
-		if(window.innerHeight - 96 < window.scrollY) {
+		if(window.innerHeight - 96 < window.scrollY && window.scrollY < document.body.scrollHeight - window.innerHeight - 48) {
 			document.querySelector("header").classList.add("-showbg");
 		} else {
 			document.querySelector("header").classList.remove("-showbg");
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	membersData.forEach(function(el, i) {
 		var crtButton = document.createElement("button");
 		crtButton.dataset.member = i;
+		crtButton.dataset.name = el.name.replace(/\(\w+\)/g, "");
 		crtButton.style.backgroundImage = "url(" + el.thumbnailImage + ")";
 		document.querySelector("#section-3 > .-sub").appendChild(crtButton);
 	});

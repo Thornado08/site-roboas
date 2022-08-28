@@ -164,6 +164,10 @@ header > .-openmenu > img {
 	padding: 1em;
 }
 
+#section-2 > .-content > .-left > *:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
 #section-2 > .-content > .-right {
 	display: flex;
 	align-items: center;
@@ -201,6 +205,7 @@ header > .-openmenu > img {
 }
 
 #section-3 > .-sub > button {
+	position: relative;
 	width: 300px;
 	height: 300px;
 	background: url(https://dummyimage.com/300);
@@ -209,10 +214,51 @@ header > .-openmenu > img {
 	padding: 0;
 	border: none;
 	border-radius: .5em;
+	transition: filter 200ms ease;
+	overflow: hidden;
 }
 
-#section-3 > .-sub > button:hover {
-	border-radius: 300px;
+#section-3 > .-sub > button::before {
+	content: attr(data-name);
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-shadow: 0 0 .25em #000;
+	position: absolute;
+	bottom: .5em;
+	width: 100%;
+	text-align: center;
+	transition: bottom 200ms ease,
+	            opacity 200ms ease;
+}
+
+#section-3 > .-sub > button::after {
+	content: "Citește mai mult";
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-shadow: 0 0 .25em #000;
+	position: absolute;
+	bottom: -.5em;
+	opacity: 0;
+	width: 100%;
+	text-align: center;
+	transition: bottom 200ms ease,
+	            opacity 200ms ease;
+}
+
+#section-3 > .-sub > button:focus::before,
+#section-3 > .-sub > button:hover::before {
+	opacity: 0;
+	bottom: 1.5em;
+}
+
+#section-3 > .-sub > button:focus::after,
+#section-3 > .-sub > button:hover::after {
+	opacity: 1;
+	bottom: .5em;
 }
 
 #section-3 > .-anterior {
@@ -407,6 +453,68 @@ header > .-openmenu > img {
 
 #section-5 > .-realizari > * > tr > *:first-child {
 	padding-left: .5em;
+}
+
+#section-6 {
+	background: linear-gradient(45deg, var(--col-galben), var(--col-mov));
+	color: #fff;
+	min-height: 100vh;
+}
+
+#section-6 > .-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .5em;
+	min-height: 100vh;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#section-6 > .-content iframe {
+	border-radius: .5em;
+	margin-top: .5em;
+}
+
+#section-6 > .-content > .-left {
+	padding: 1em;
+	flex: 0 0 50%;
+}
+
+#section-6 > .-content > .-left > h2 {
+	margin-bottom: 1rem;
+}
+
+#section-6 > .-content > .-right {
+	flex: 0 0 50%;
+}
+
+#section-6 > .-content > .-right > h2 {
+	margin-bottom: 1rem;
+}
+
+#section-6 > .-content > .-right > ul {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	gap: .25em;
+}
+
+#section-6 > .-content > .-right > ul > li {
+	display: flex;
+	align-items: center;
+	gap: .25em;
+}
+
+#section-6 > .-content > .-right > ul > li > a {
+	color: unset;
+}
+
+#section-6 > .-content > .-right > ul > li > img {
+	width: 1em;
+	height: 1em;
+	filter: invert(1);
 }
 
 @media screen and (max-width: 1250px) {
