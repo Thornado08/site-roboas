@@ -86,7 +86,7 @@ const membersData = [
 	{
 		name: "Ionuț",
 		class: 2024,
-		classIndex: "B",
+		classIndex: "A",
 		birth: new Date(2005, 0, 27, 0, 0) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
@@ -158,7 +158,7 @@ const membersData = [
 	{
 		name: "Alexia Muncaciu",
 		class: 2025,
-		classIndex: "B",
+		classIndex: "A",
 		birth: new Date(2005, 0, 27, 0, 0) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
@@ -170,7 +170,7 @@ const membersData = [
 	{
 		name: "Anastasia Muncaciu",
 		class: 2025,
-		classIndex: "B",
+		classIndex: "A",
 		birth: new Date(2005, 0, 27, 0, 0) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
@@ -182,7 +182,7 @@ const membersData = [
 	{
 		name: "Rareș George Buteică",
 		class: 2025,
-		classIndex: "B",
+		classIndex: "A",
 		birth: new Date(2006, 10, 3, 0, 0) * 1,
 		descriptionImage: "static/profile/raresb.webp",
 		thumbnailImage: "static/profile/raresb.webp",
@@ -193,8 +193,8 @@ const membersData = [
 	},
 	{
 		name: "Alexandra Șerban",
-		class: 2024,
-		classIndex: "B",
+		class: 2025,
+		classIndex: "E",
 		birth: new Date(2005, 0, 27, 0, 0) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
@@ -242,7 +242,7 @@ const membersData = [
 	{
 		name: "Maria Vasilescu",
 		class: 2026,
-		classIndex: "B",
+		classIndex: "A",
 		birth: new Date(2007, 1, 18, 0, 0) * 1,
 		descriptionImage: "static/profile/mariav.webp",
 		thumbnailImage: "static/profile/mariav.webp",

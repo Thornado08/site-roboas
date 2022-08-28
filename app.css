@@ -485,10 +485,14 @@ header > .-openmenu > img {
 #section-6 > .-content > .-left {
 	padding: 1em;
 	flex: 0 0 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
 }
 
 #section-6 > .-content > .-left > h2 {
-	margin-bottom: 1rem;
 }
 
 #section-6 > .-content > .-right {
