@@ -30,7 +30,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "static/insta/domi.jpg",
 		thumbnailImage: "static/profile/domi.webp",
-		passions: "Scrima, programarea, tastaturi mecanice &#9000;",
+		passions: "Scrima, programarea, pisicile &#128008;",
 		roles: [0, 4],
 		description: "Hello! Eu-s Domi, iar în cadrul echipei de robotică mă ocup cu programarea. Iubesc pisicile, motiv pentru care o să mângâi orice mâță pe care o văd pe stradă!! În timpul liber îmi place să practic sporturi, precum scrima sau baschetul.",
 		insta: "domi.py"
