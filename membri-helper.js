@@ -229,7 +229,7 @@ const membersData = [
 	},
 	{
 		name: "David Iustin Brățucu",
-		class: 2024,
+		class: 2026,
 		classIndex: "B",
 		birth: new Date(2005, 0, 27, 0, 0) * 1,
 		descriptionImage: "https://dummyimage.com/500",
