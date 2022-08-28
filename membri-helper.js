@@ -114,7 +114,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -126,7 +126,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -138,7 +138,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -150,7 +150,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -162,7 +162,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -174,7 +174,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -186,7 +186,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -198,7 +198,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -210,7 +210,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -222,7 +222,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
@@ -234,7 +234,7 @@ const membersData = [
 		birth: new Date(2005, 0, 27, 3, 40) * 1,
 		descriptionImage: "https://dummyimage.com/500",
 		thumbnailImage: "https://dummyimage.com/500",
-		passions: "Frcutul pasiuni haha te ai prins",
+		passions: "",
 		roles: [0, 1, 2, 3, 4],
 		description: "",
 		insta: ""
