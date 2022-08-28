@@ -32,7 +32,7 @@ const membersData = [
 		thumbnailImage: "static/profile/domi.webp",
 		passions: "Scrima, programarea, tastaturi mecanice &#9000;",
 		roles: [0, 4],
-		description: "Hello! Eu-s Domi, iar în cadrul echipei de robotică mă ocup cu programarea. Îmi place să practic sporturi în timpul liber, precum scrima sau baschetul. Iubesc tastaturile mecanice, tehnoasele și inelele. Consider că cel mai fain club din Costinești este MAX / White Horse, însă nimic nu se compară cu <a href='https://www.youtube.com/watch?v=TAKR_6vNJR8' target='_blank'>o melodie super mișto</a> la boxă la răsărit.",
+		description: "Hello! Eu-s Domi, iar în cadrul echipei de robotică mă ocup cu programarea. Iubesc pisicile, motiv pentru care o să mângâi orice mâță pe care o văd pe stradă!! În timpul liber îmi place să practic sporturi, precum scrima sau baschetul.",
 		insta: "domi.py"
 	},
 	{
