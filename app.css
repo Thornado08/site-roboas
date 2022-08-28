@@ -474,6 +474,12 @@ header > .-openmenu > img {
 #section-6 > .-content iframe {
 	border-radius: .5em;
 	margin-top: .5em;
+	max-width: 100%;
+}
+
+#section-6 > .-content > * {
+	padding: .5em;
+	box-sizing: border-box;
 }
 
 #section-6 > .-content > .-left {
