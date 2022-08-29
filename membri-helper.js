@@ -84,16 +84,16 @@ const membersData = [
 		insta: "dennis__bart"
 	},
 	{
-		name: "Ionuț",
+		name: "Ioan Iulian Ungureanu (Ionuț)",
 		class: 2024,
 		classIndex: "A",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
+		birth: new Date(2005, 9, 6, 0, 0) * 1,
+		descriptionImage: "static/profile/ionutu.webp",
+		thumbnailImage: "static/profile/ionutu.webp",
+		passions: "Iubesc robotica",
+		roles: [3],
+		description: "Salut, eu sunt Ionuț. Inițial intrat doar ca voluntar în echipă, am ajutat și contribuit la robot și acum mă bucur să fiu un membru \"cu normă întreagă\".",
+		insta: "thereal_ionutz"
 	},
 	{
 		name: "Flavia Trifu",
@@ -274,6 +274,18 @@ const membersData = [
 		roles: [3],
 		description: "Mă numesc Abrudan David Ioan, iar în echipa noastră mă ocup cu partea de asamblare. Unele dintre pasiunile mele sunt informatica, trading/economie dar și ingineria.",
 		insta: "david_abrudan"
+	},
+	{
+		name: "Mihnea Andrei Grigore",
+		class: 2024,
+		classIndex: "B",
+		birth: new Date(2006, 1, 9, 0, 0) * 1,
+		descriptionImage: "static/profile/mihnea.webp",
+		thumbnailImage: "static/profile/mihnea.webp",
+		passions: "Building things (engineering, CS) and motorsport &#127950;",
+		roles: [1, 3],
+		description: "Salut! Eu sunt Mihnea, iar pasiunea mea principală este design-ul 3D. În echipa de robotică mă ocup în principal cu proiectarea și asamblarea.",
+		insta: "mihnea._.andrei"
 	},
 ].sort((a, b) => {
 	if(a.class != b.class) return b.class - a.class;

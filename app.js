@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	membersData.forEach(function(el, i) {
 		var crtButton = document.createElement("button");
 		crtButton.dataset.member = i;
-		crtButton.dataset.name = el.name.replace(/\(\w+\)/g, "");
+		crtButton.dataset.name = el.name.replace(/\(.+\)/g, "");
 		crtButton.style.backgroundImage = "url(" + el.thumbnailImage + ")";
 		document.querySelector("#section-3 > .-sub").appendChild(crtButton);
 	});
