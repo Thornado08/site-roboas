@@ -147,12 +147,12 @@ const membersData = [
 		name: "Darius Chițu",
 		class: 2025,
 		classIndex: "B",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
+		birth: new Date(2006, 6, 28, 0, 0) * 1,
+		descriptionImage: "static/profile/dariusc.webp",
+		thumbnailImage: "static/profile/dariusc.webp",
+		passions: "Programare, pictură, șah &#9823;",
+		roles: [0, 1, 2],
+		description: "Salut! Eu sunt Darius, iar pasiunea mea principală este partea de algoritmică, motiv pentru care, în cadrul echipei de robotică, o să mă concentrez pe partea de programare. Printre altele, se mai numără pictura și grafica, de aceea mi s-ar părea interesant să contribui și pe partea de design.",
 		insta: ""
 	},
 	{
