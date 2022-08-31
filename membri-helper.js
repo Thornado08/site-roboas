@@ -159,13 +159,13 @@ const membersData = [
 		name: "Alexia Muncaciu",
 		class: 2025,
 		classIndex: "A",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
+		birth: new Date(2006, 5, 30, 0, 0) * 1,
+		descriptionImage: "static/profile/alexiam.webp",
+		thumbnailImage: "static/profile/alexiam.webp",
+		passions: "Voluntariatul, baschetul &#127936;",
+		roles: [0, 1, 2],
+		description: "Hellooo, eu sunt Alexia :D Câteva cuvinte despre mine: Fac baschet de performanță de 2 ani jumate, sunt voluntară la HappyCamps, îmi place informatica, ador câinii, pisicile, animalele în general. Cât despre robotică... e primul an al meu în echipă și cred că m-aș descurca bine la design, programare, dar sunt deschisă să le încerc pe toate!",
+		insta: "aleeecsia"
 	},
 	{
 		name: "Anastasia Muncaciu",
