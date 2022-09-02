@@ -228,7 +228,7 @@ const membersData = [
 		insta: ""
 	},
 	{
-		name: "David Iustin Brățucu",
+		name: "David Iustin Brătucu",
 		class: 2026,
 		classIndex: "B",
 		birth: new Date(2007, 2, 25, 0, 0) * 1,
