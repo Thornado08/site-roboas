@@ -235,7 +235,7 @@ const membersData = [
 		descriptionImage: "static/profile/davidb.webp",
 		thumbnailImage: "static/profile/davidb.webp",
 		passions: "Baschet, lego, matematica &#129518;",
-		roles: [2],
+		roles: [3],
 		description: "Bună, sunt David și sunt în primul an în echipa de Robotică a Colegiului Național Andrei Șaguna. Sper că aceasta activitate să fie o experiență din care cu toții să putem învăța câte ceva și să legăm cât mai multe prietenii.",
 		insta: "david.bratucu"
 	},
