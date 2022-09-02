@@ -99,13 +99,13 @@ const membersData = [
 		name: "Flavia Trifu",
 		class: 2024,
 		classIndex: "A",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
+		birth: new Date(2005, 2, 30, 0, 0) * 1,
+		descriptionImage: "static/profile/flavia.webp",
+		thumbnailImage: "static/profile/flavia.webp",
+		passions: "Mers pe munte, ski, citit, călătorit &#128506;",
+		roles: [2, 3],
+		description: "Hei, eu sunt Flavia. În primul meu an în echipă m-am ocupat în mare parte de asamblare. În timpul liber, îmi place să fug pe munte și să citesc.",
+		insta: "lunatic.soulx"
 	},
 	{
 		name: "Rareș Garalbatin",
@@ -231,13 +231,13 @@ const membersData = [
 		name: "David Iustin Brățucu",
 		class: 2026,
 		classIndex: "B",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
+		birth: new Date(2007, 2, 25, 0, 0) * 1,
+		descriptionImage: "static/profile/davidb.webp",
+		thumbnailImage: "static/profile/davidb.webp",
+		passions: "Baschet, lego, matematica &#129518;",
+		roles: [2],
+		description: "Bună, sunt David și sunt în primul an în echipa de Robotică a Colegiului Național Andrei Șaguna. Sper că aceasta activitate să fie o experiență din care cu toții să putem învăța câte ceva și să legăm cât mai multe prietenii.",
+		insta: "david.bratucu"
 	},
 	{
 		name: "Maria Vasilescu",
