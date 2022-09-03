@@ -217,15 +217,15 @@ const membersData = [
 	},
 	{
 		name: "Vlad Ștefan Deaconu",
-		class: 2024,
+		class: 2026,
 		classIndex: "B",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
+		birth: new Date(2007, 7, 2, 0, 0) * 1,
+		descriptionImage: "static/profile/vladd.webp",
+		thumbnailImage: "static/profile/vladd.webp",
+		passions: "Baschetul, mountain bikingul &#128693;",
+		roles: [0, 3],
+		description: "Salut, sunt Vlad :) Acesta este primul meu an în echipa de robotică. Sunt sigur că va fi o experiență frumoasă și că voi învăța lucruri interesante care mă vor ajuta să mă dezvolt. Mă voi strădui să fac tot ce e necesar pentru a ajuta echipa!",
+		insta: "dutu260"
 	},
 	{
 		name: "David Iustin Brătucu",
