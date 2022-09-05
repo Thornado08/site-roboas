@@ -3,13 +3,13 @@ const membersData = [
 		name: "Ioana Popa",
 		class: 2023,
 		classIndex: "A",
-		birth: new Date(2004, 10, 30, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [],
-		description: "",
-		insta: ""
+		birth: new Date(2004, 10, 2, 0, 0) * 1,
+		descriptionImage: "static/profile/ioanap.webp",
+		thumbnailImage: "static/profile/ioanap.webp",
+		passions: "STEM, înot, călătorii și teaching &#127891;",
+		roles: [0, 3, 4],
+		description: "Salut! În echipa RoboAS, îmi place să ajut acolo unde este nevoie. Cel mai probabil o să mă vezi lucrând la asamblare, scriind la Notebook sau făcând un story pentru Instagram. Sunt o persoană dinamică, perseverentă, perfecționistă și muncitoare. În timpul liber îmi place să îmi împărtășesc pasiunea pentru științe cu copii mai mici, sau să înot.",
+		insta: "ioapopa04"
 	},
 	{
 		name: "George Cărpinișan",
