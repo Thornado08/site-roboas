@@ -171,13 +171,13 @@ const membersData = [
 		name: "Anastasia Muncaciu",
 		class: 2025,
 		classIndex: "A",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
+		birth: new Date(2006, 5, 30, 0, 0) * 1,
+		descriptionImage: "static/profile/siam.webp",
+		thumbnailImage: "static/profile/siam.webp",
+		passions: "Baschetul, cititul, călătoritul &#128506;",
+		roles: [1, 3],
+		description: "Salutaree:)) Sunt Sia și e primul meu an în echipa de robotică. Abia aștept să încerc toate departamentele și să văd ce mă atrage cel mai mult. Îmi place informatica, fizica, baschetul, să citesc și să călătoresc. Ne vedem în S4 ;)",
+		insta: "sia.blj"
 	},
 	{
 		name: "Rareș George Buteică",
