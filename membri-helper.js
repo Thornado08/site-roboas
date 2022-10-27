@@ -192,18 +192,6 @@ const membersData = [
 		insta: "rares.buteica"
 	},
 	{
-		name: "Alexandra Șerban",
-		class: 2025,
-		classIndex: "E",
-		birth: new Date(2005, 0, 27, 0, 0) * 1,
-		descriptionImage: "https://dummyimage.com/500",
-		thumbnailImage: "https://dummyimage.com/500",
-		passions: "",
-		roles: [0, 1, 2, 3, 4],
-		description: "",
-		insta: ""
-	},
-	{
 		name: "Daria Pampu-Romanescu",
 		class: 2025,
 		classIndex: "E",
