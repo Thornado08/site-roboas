@@ -204,6 +204,18 @@ const membersData = [
 		insta: "dariampr"
 	},
 	{
+		name: "Șerban Alexandra",
+		class: 2025,
+		classIndex: "E",
+		birth: new Date(2006, 5, 13, 0, 0) * 1,
+		descriptionImage: "static/profile/alexa.webp",
+		thumbnailImage: "static/profile/alexa.webp",
+		passions: "Managementul, asamblarea, dezbaterile, muzica &#10024;",
+		roles: [3, 4],
+		description: "Hey! Sunt Alexa. Îmi place mult să mă implic în cât mai multe activități în echipe, iar să mă joc cu piulițe și șuruburi e unul dintre hobby-urile mele preferate:))",
+		insta: "alexa_ale.04"
+	},
+	{
 		name: "Vlad Ștefan Deaconu",
 		class: 2026,
 		classIndex: "B",
