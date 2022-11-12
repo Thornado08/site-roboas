@@ -204,7 +204,7 @@ const membersData = [
 		insta: "dariampr"
 	},
 	{
-		name: "Șerban Alexandra",
+		name: "Alexandra Șerban (Alexa)",
 		class: 2025,
 		classIndex: "E",
 		birth: new Date(2006, 5, 13, 0, 0) * 1,
