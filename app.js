@@ -54,7 +54,7 @@ function section3ToggleUser(member = 0) {
 		} else {
 			section3CurrentlyOpenedUser = member;
 			var crtVarsta = Math.floor((new Date() * 1 - membersData[member].birth) / (1000 * 60 * 60 * 24 * 365.25));
-			var crtClasa = "a " + ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][13 - (membersData[member].class - new Date().getFullYear())] + "-a";
+			var crtClasa = "a " + ["", "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][13 - (membersData[member].class - new Date().getFullYear())] + "-a";
 			document.querySelector("#section-3 > .-about > div > img").src = membersData[member].descriptionImage;
 			document.querySelector("#section-3 > .-about > div > .-content > h2").innerHTML = membersData[member].name;
 			document.querySelector("#section-3 > .-about > div > .-content .-age").innerHTML = crtVarsta + (crtVarsta >= 20 ? " de" : "") + " ani";
