@@ -39,7 +39,11 @@ button {
 }
 
 .misc-mono, .misc-mono * {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'MyFont', monospace;
+}
+
+.misc-mono, .misc-mono * {
+	font-family: 'MyFont', monospace;
 }
 
 header {
@@ -74,6 +78,7 @@ header > ul {
 	align-items: center;
 	justify-content: center;
 	gap: 1em;
+	font-family: "MyFont";
 }
 
 header > ul > li {
@@ -146,16 +151,13 @@ header > .-openmenu > img {
 	50% { opacity: 0; }
 }
 
-#section-2 {
-	min-height: 100vh;
-}
 
 #section-2 > .-content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: .5em;
-	min-height: 100vh;
+	/*gap: .5em;*/
+	padding-top: 30vh;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -164,8 +166,8 @@ header > .-openmenu > img {
 	padding: 1em;
 }
 
-#section-2 > .-content > .-left > *:not(:last-child) {
-	margin-bottom: 1rem;
+#section-2 > .-content > .-left > h2 {
+	padding-bottom: 5vh;
 }
 
 #section-2 > .-content > .-right {
@@ -182,6 +184,25 @@ header > .-openmenu > img {
 
 #section-2 > .-content > .-right > video:hover {
 	box-shadow: 0 0 .5em var(--col-mov);
+}
+
+
+#section-7 > .-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*gap: .5em;*/
+	padding-top: 10vh;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#section-7 > .-content > .-right > h2 {
+	padding-bottom: 5vh;
+}
+
+c {
+	padding: 1em;
 }
 
 #section-3 {
@@ -612,4 +633,18 @@ header > .-openmenu > img {
 	header > .-openmenu {
 		display: flex;
 	}
+}
+
+@font-face { 
+    font-family: 'MyFont'; 
+    src: 
+        url('font/Nasalization\ Rg.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+body {
+    background-color: #27292b;
+    color: white;
 }
