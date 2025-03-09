@@ -412,6 +412,10 @@ c {
 	transform: rotate(180deg);
 }
 
+#section-3 > .-about > div > .-content {
+	color: #000;
+}
+
 #section-4 {
 	padding: 1em 0;
 	box-sizing: border-box;
